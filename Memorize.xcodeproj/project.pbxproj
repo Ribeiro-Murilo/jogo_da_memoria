@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		37005F0D2B0981DC00BB745C /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37005F0C2B0981DC00BB745C /* MemorizeApp.swift */; };
-		37005F0F2B0981DC00BB745C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37005F0E2B0981DC00BB745C /* ContentView.swift */; };
 		37005F112B0981DE00BB745C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37005F102B0981DE00BB745C /* Assets.xcassets */; };
 		37005F142B0981DE00BB745C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37005F132B0981DE00BB745C /* Preview Assets.xcassets */; };
+		37005F1A2B09897900BB745C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37005F0E2B0981DC00BB745C /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37005F0F2B0981DC00BB745C /* ContentView.swift in Sources */,
+				37005F1A2B09897900BB745C /* ContentView.swift in Sources */,
 				37005F0D2B0981DC00BB745C /* MemorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +264,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
@@ -293,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
