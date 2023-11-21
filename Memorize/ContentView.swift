@@ -7,17 +7,24 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
     
     //importando o EmogiMemoryGame.swift
     var viewModel: EmogiMemoryGame
     
     var body: some View {
-        HStack{
-            ForEach(viewModel.cards) { card in
-                CardView(card: card).onTapGesture {
-                    viewModel.choose(card: card)
+        GeometryReader{ geometry in
+            
+            LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 3)) {
+                ForEach(viewModel.cards) { card in
+                    CardView(card: card).onTapGesture {
+                        viewModel.choose(card: card)
+                    }
+                    .frame(width: 100, height: 100)
                 }
+        
             }
         }
         .foregroundColor(Color.blue)
